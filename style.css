@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: linear-gradient(180deg, #769826, #ab67de);
+  background-image: linear-gradient(180deg, #0f0f0d, #392249);
   padding-left: 2.5vw;
   padding-bottom: 2.5vw;
 }
@@ -19,6 +19,18 @@ body {
   gap: 2rem;
 }
 
+.hero a {
+  color: #fff;
+  text-decoration: underline;
+  transition: color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.hero a:hover {
+  color: grey;
+}
+.hero p {
+  margin-bottom: 10px;
+}
 .about-self,
 .aspirations,
 .hobbies {
@@ -44,6 +56,10 @@ a {
   margin-top: 1rem;
   color: blue;
   text-decoration: none;
+}
+
+.about {
+  margin-top: 10px;
 }
 
 .image {
